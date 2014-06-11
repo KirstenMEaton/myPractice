@@ -37,7 +37,7 @@
         foreach ($contents as $item)
         {
             if ( (is_file($search_dir . '/' .  $item)) AND (substr($item, 0,1) != '.'))
-            {
+            {                                                                                                                    
                // Get the file size:
                $fs = filesize($search_dir . '/' . $item);
                
